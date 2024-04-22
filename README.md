@@ -2,9 +2,9 @@
 
 > Place the files at `~/.config/` and the path-scripts on your `$PATH`
 
-These are the main configurations used for my **Kali Linux** setup. Unfortunately, a lot of the directory paths have to be tuned for use with other devices, and certain scripts have to be moved to the `$PATH` for some of these configurations to function properly. *(I'm looking at you, the 3 line bash script to reset picom.)* Other than that, it should be clean and usable enough for my first time ricing a linux distro. Available configurations include:
+These are the main configurations used for my **Kali Linux** setup. Unfortunately, a lot of the directory paths have to be tuned for use with other devices, and certain scripts have to be moved to the `$PATH` for some of these configurations to function properly. *(I'm looking at you, the 3 line script to reset picom.)* Other than that, it should be clean and usable enough for my first time ricing a linux distro. Available configurations include:
 * i3wm
-* picom {(jonaburg's fork)]
+* picom [(jonaburg's fork)](https://github.com/jonaburg/picom)
 * polybar
 * dunst
 * kitty
