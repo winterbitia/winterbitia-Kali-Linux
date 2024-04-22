@@ -1,0 +1,3 @@
+killall picom
+sleep 0.1
+picom --config ~/.config/picom/picom.conf --experimental-backends -b
