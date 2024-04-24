@@ -215,8 +215,12 @@ bindcode $mod+41 exec firefox
 bindcode $mod+53 exec code
 #Mod+C - Discord
 bindcode $mod+54 exec discord
+#Mod+Shift+B - Bluetooth
+bindcode $mod+Shift+56 exec blueman-manager
 #Mod+M - SpotifyAdBlock
 bindcode $mod+58 exec "LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
+#Mod+Shift+M - PulseAudio Volume Control
+bindcode $mod+Shift+58 exec pavucontrol
 
 
 
