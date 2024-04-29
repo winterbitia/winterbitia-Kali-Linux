@@ -19,7 +19,7 @@ font pango:DejaVuSansM Nerd Font Mono 12
 exec --no-startup-id dex --autostart --environment i3
 
 # Autostart for betterlockscreen
-exec --no-startup-id betterlockscreen -w dim
+exec --no-startup-id betterlockscreen -w blur
 
 # Autostart nm-applet, system tray GUI for NetworkManager
 exec --no-startup-id nm-applet
@@ -201,8 +201,8 @@ bindsym $mod+z exec betterlockscreen -l dim
 bindsym $mod+Shift+z exec "rofi -show power-menu -modi power-menu:'rofi-power-menu --no-symbols'"
 
 # Shortcuts for flameshot, the screenshot tool
-bindsym Print exec flameshot full --clipboard --path ~/Pictures/screenshot/
-bindsym Shift+Print exec flameshot gui --clipboard --path ~/Pictures/screenshot/
+bindcode $mod+39 exec flameshot full --clipboard --path ~/Pictures/screenshot/
+bindcode $mod+Shift+39 exec flameshot gui --clipboard --path ~/Pictures/screenshot/
 
 
 
