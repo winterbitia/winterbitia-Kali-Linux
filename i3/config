@@ -55,6 +55,7 @@ for_window [class="^.*"] border pixel 2
 
 # Yad behavior
 for_window [class="Yad" title="yad-calendar"] floating enable
+for_window [class="Windscribe"] floating enable
 
 # Window gaps setup
 smart_gaps on
@@ -197,7 +198,7 @@ bindsym $mod+r mode "resize"
 
 # System actions
 bindsym $mod+w exec "rofi-wifi-menu.sh"
-bindsym $mod+z exec betterlockscreen -l dim
+bindsym $mod+z exec betterlockscreen -l blur
 bindsym $mod+Shift+z exec "rofi -show power-menu -modi power-menu:'rofi-power-menu --no-symbols'"
 
 # Shortcuts for flameshot, the screenshot tool
