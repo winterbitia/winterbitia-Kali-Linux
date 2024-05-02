@@ -57,6 +57,9 @@ for_window [class="^.*"] border pixel 2
 for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="Windscribe"] floating enable
 
+# Zoom behavior
+for_window [class="zoom"] floating enable
+
 # Window gaps setup
 smart_gaps on
 smart_borders on
@@ -203,6 +206,7 @@ bindsym $mod+Shift+z exec "rofi -show power-menu -modi power-menu:'rofi-power-me
 
 # Shortcuts for flameshot, the screenshot tool
 bindcode $mod+39 exec flameshot full --clipboard --path ~/Pictures/screenshot/
+bindcode $mod+107 exec flameshot full --clipboard --path ~/Pictures/screenshot/
 bindcode $mod+Shift+39 exec flameshot gui --clipboard --path ~/Pictures/screenshot/
 
 
