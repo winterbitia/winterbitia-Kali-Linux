@@ -6,6 +6,8 @@ These are the main configurations used for my **Kali Linux** setup. Unfortunatel
 * i3wm
 * picom [(jonaburg's fork)](https://github.com/jonaburg/picom)
 * polybar
+	* [popup-calendar](https://github.com/polybar/polybar-scripts/tree/master/polybar-scripts/popup-calendar)
+	* [polybar-spotify](https://github.com/Jvanrhijn/polybar-spotify)
 * dunst
 * kitty
 * rofi
