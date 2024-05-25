@@ -27,7 +27,7 @@ While these services don't neccessarily contain configuration files, they're ver
 * feh
 * [Nerd Fonts](https://www.nerdfonts.com/font-downloads):
     * DejaVu Sans Mono
-    * SpaceMono 
+    * Hack
 
 ## Rose Pine Themes
 
