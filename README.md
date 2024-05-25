@@ -9,6 +9,7 @@ These are the main configurations used for my **Kali Linux** setup. Unfortunatel
 * dunst
 * kitty
 * rofi
+* neofetch
 * betterlockscreen
 * $PATH scripts used
     * [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu)
@@ -28,10 +29,10 @@ While these services don't neccessarily contain configuration files, they're ver
 
 ## Rose Pine Themes
 
-Rose Pine Moon is one of the few color schemes I looked at for a short while and instantly fell in love with, to the point where I've used the scheme in many of my applications. You can find the themes listed in their [website](https://rosepinetheme.com/).
+**Rose Pine Moon** is one of the few color schemes I looked at for a short while and instantly fell in love with, to the point where I've used the scheme in many of my applications. You can find the themes listed in their [website](https://rosepinetheme.com/).
 
 <details>
-<summary>Used Themes</summary>
+<summary>Used Themes [CLICK TO OPEN]</summary>
 
 * btop
 * cava
