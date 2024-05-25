@@ -31,34 +31,12 @@ exec --no-startup-id lxpolkit
 exec_always --no-startup-id dunst
 
 # Autostart for wallpaper service
-exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/wallpapers/rose_pine_circle2.png
+#exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/wallpapers/rose_pine_circle2.png
+exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/skypastel.jpg
 #exec_always --no-startup-id nitrogen --restore
 
 # Autostart for compositor (transparency, blur, etc) through a shell script
 exec_always --no-startup-id picomreset
-
-# Autostart the dummy bar
-bar {
-  # command in i3-gaps to allow rgba colors for i3bar
-  i3bar_command i3bar -t
-
-  position            top
-  tray_output         none  
-  workspace_buttons   no   
-  height 30  
-
-  # prevent any accidental clicks/scrolls
-  bindsym button1 nop
-  bindsym button2 nop
-  bindsym button3 nop
-  bindsym button4 nop
-  bindsym button5 nop
-
-  colors {
-    # set bar background to transparent
-    background #00000000
-  }
-}
 
 # Autostart polybar (the main bar used)
 exec_always --no-startup-id /home/winter/.config/polybar/launch.sh
@@ -96,6 +74,7 @@ set $margin 2
 # Window gaps activate
 gaps inner $padding
 gaps outer $margin
+gaps top 33
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
