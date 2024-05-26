@@ -19,7 +19,7 @@ font pango:DejaVuSansM Nerd Font Mono 12
 exec --no-startup-id dex --autostart --environment i3
 
 # Autostart for betterlockscreen
-exec --no-startup-id betterlockscreen -w blur
+exec --no-startup-id betterlockscreen -w
 
 # Autostart nm-applet, system tray GUI for NetworkManager
 exec --no-startup-id nm-applet
@@ -33,7 +33,6 @@ exec_always --no-startup-id dunst
 # Autostart for wallpaper service
 #exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/wallpapers/rose_pine_circle2.png
 exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/skypastel.jpg
-#exec_always --no-startup-id nitrogen --restore
 
 # Autostart for compositor (transparency, blur, etc) through a shell script
 exec_always --no-startup-id picomreset
@@ -74,7 +73,7 @@ set $margin 2
 # Window gaps activate
 gaps inner $padding
 gaps outer $margin
-gaps top 33
+gaps top 40
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -207,7 +206,7 @@ bindsym $mod+r mode "R"
 
 # System actions
 bindsym $mod+w exec "rofi-wifi-menu.sh"
-bindsym $mod+z exec betterlockscreen -l blur
+bindsym $mod+z exec betterlockscreen -l
 bindsym $mod+Shift+z exec "rofi -show power-menu -modi power-menu:'rofi-power-menu --no-symbols'"
 
 # Shortcuts for flameshot, the screenshot tool
