@@ -17,6 +17,9 @@ These are the main configurations used for my **Kali Linux** setup. Unfortunatel
     * [rofi-wifi-menu](https://github.com/ericmurphyxyz/rofi-wifi-menu)
     * [rofi-power-menu](https://github.com/jluttine/rofi-power-menu)
     * picomreset
+* $HOME scripts available
+	* .vimrc
+	* .zshrc
 
 ## Notable Dependencies
 
