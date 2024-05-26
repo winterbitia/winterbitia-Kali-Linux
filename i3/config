@@ -214,9 +214,12 @@ bindcode $mod+39 exec flameshot full --clipboard --path ~/Pictures/screenshot/
 bindcode $mod+107 exec flameshot full --clipboard --path ~/Pictures/screenshot/
 bindcode $mod+Shift+39 exec flameshot gui --clipboard --path ~/Pictures/screenshot/
 
+# Shortcuts for Spotify playerctl
 bindcode $mod+34 exec "playerctl --player=spotify previous"
 bindcode $mod+35 exec "playerctl --player=spotify next"
 bindcode $mod+48 exec "playerctl --player=spotify play-pause"
+bindcode $mod+Shift+34 exec "playerctl --player=spotify volume 0.05-"
+bindcode $mod+Shift+35 exec "playerctl --player=spotify volume 0.05+"
 
 	# MAIN APP SHORTCUTS
 #Mod+E - Thunar
