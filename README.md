@@ -54,4 +54,7 @@ While these services don't neccessarily contain configuration files, they're ver
 
 ## Gallery
 
-**(WIP)**
+![main](gallery/image1.png)
+![vim](gallery/image2.png)
+![spotify](gallery/image3.png)
+
