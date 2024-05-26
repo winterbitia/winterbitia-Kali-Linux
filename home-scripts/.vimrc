@@ -5,6 +5,10 @@ set tabstop=4
 set autoindent
 set mouse=a
 
+set nobackup
+set noswapfile
+set noundofile
+
 syntax on
 hi LineNr ctermfg=8
 hi CursorLineNr ctermfg=8
