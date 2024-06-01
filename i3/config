@@ -34,8 +34,8 @@ exec --no-startup-id lxpolkit
 exec_always --no-startup-id dunst
 
 # Autostart for wallpaper service
-#exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/wallpapers/rose_pine_circle2.png
-exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/skypastel.jpg
+exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/wallpapers/rose_pine_circle2.png
+#exec_always --no-startup-id feh --bg-fill --zoom fill ~/Pictures/wpp/skypastel.jpg
 
 # Autostart for compositor (transparency, blur, etc) through a shell script
 exec_always --no-startup-id picomreset
