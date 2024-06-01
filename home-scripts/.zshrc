@@ -243,11 +243,17 @@ fi
 # everyday related aliases
 alias ll='ls -l'
 alias la='ls -A'
+alias lla='ls -lA'
 alias l='ls -CF'
 alias c='clear'
+alias q='exit'
+alias nf='neofetch'
+
+# work related aliases
+alias its='cd ~/Documents/ITS'
 
 # config related aliases
-alias cdconfig='cd ~/.config'
+alias cdcfg='cd ~/.config'
 alias vimi3='vim ~/.config/i3/config'
 alias vimpb='vim ~/.config/polybar/config.ini'
 
