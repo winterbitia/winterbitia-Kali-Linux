@@ -251,6 +251,7 @@ alias nf='neofetch'
 
 # work related aliases
 alias its='cd ~/Documents/ITS'
+alias lampp='sudo /opt/lampp/lampp'
 
 # config related aliases
 alias cdcfg='cd ~/.config'
@@ -276,3 +277,7 @@ export PATH=$PATH:/home/winter/.local/bin
 
 # adding brew environment
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# on terminal
+figlet "    winterbitia" | lolcat -p 0.6 -S 10
+echo ""
