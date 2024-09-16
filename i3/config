@@ -232,10 +232,12 @@ bindcode $mod+41 exec firefox
 #Mod+X - Visual Studio Code
 bindcode $mod+53 exec code
 #Mod+C - Discord
+for_window [class="discord"] move container to workspace 10
 bindcode $mod+54 exec discord
 #Mod+Shift+B - Bluetooth
 bindcode $mod+Shift+56 exec blueman-manager
 #Mod+M - SpotifyAdBlock
+for_window [class="Spotify"] move container to workspace 9
 bindcode $mod+58 exec "LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 #Mod+Shift+M - PulseAudio Volume Control
 bindcode $mod+Shift+58 exec pavucontrol
