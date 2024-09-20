@@ -31,6 +31,7 @@ While these services don't neccessarily contain configuration files, they're ver
 * [Nerd Fonts](https://www.nerdfonts.com/font-downloads):
     * DejaVu Sans Mono
     * Hack
+    * Noto Sans JP
 
 ## Rose Pine Themes
 
